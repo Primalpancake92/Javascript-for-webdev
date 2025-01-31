@@ -1,0 +1,44 @@
+body{
+    font-family: "Montserrat";
+    background-image: linear-gradient(to bottom right, rgb(255,255,255), rgb(140,195,188), rgb(37, 150, 190));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 97.7vh;
+    margin: 0; /* Important: remove default margins */
+    box-sizing: border-box;
+}
+
+.form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    top: 25%;
+    transform: translateY(-15%);
+    width: 25em;
+    height: 25em;
+    border: solid 2px black;
+    padding: 2em;
+    background-color: rgba(200,200,200, 0.3);
+}
+
+.formtitle{
+    position: relative;
+    margin-top: 0em;
+}
+
+.Fullname{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+    margin: 3em 0em;
+}
+
+.Fullname label{
+    font-size: 1.4em;
+    padding-bottom: 1em;
+}
