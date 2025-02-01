@@ -20,14 +20,22 @@ body{
     transform: translateY(-15%);
     width: 25em;
     height: 25em;
-    border: solid 2px black;
+    border: solid 2px rgb(31, 204, 181);
+    border-radius: 20px;
     padding: 2em;
-    background-color: rgba(200,200,200, 0.3);
+    box-shadow: 0.5em 0.5em 2em grey;
+    background: transparent;
+    backdrop-filter: blur(50px);
+}
+
+.heading1{
+    margin: 0 auto;
 }
 
 .formtitle{
     position: relative;
     margin-top: 0em;
+
 }
 
 .Fullname{
@@ -35,10 +43,42 @@ body{
     display: flex;
     flex-direction: column;
     width: 20em;
-    margin: 3em 0em;
+    margin: 2em 0em;
 }
 
-.Fullname label{
+.Email{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+    margin: 2em;
+}
+
+.Fullname label, .Email label{
     font-size: 1.4em;
-    padding-bottom: 1em;
+}
+
+.Fullname input, .Email input{
+    font-family: "Montserrat";
+    height: 2em;
+    background-color: rgba(255,255,255,0);
+    border: transparent;
+    border-bottom: solid 2px grey;
+    font-size: 0.9em;
+    padding: 0.5em 0;
+    
+}
+
+.Fullname input:focus, .Email input:focus{
+    border-bottom: solid 2px rgb(31, 204, 181);
+    outline: none;
+}
+
+#submit{
+    width: 8em;
+    height: 3em;
+    border-radius: 30em;
+    background-color: rgb(31, 204, 181);
+    border: solid 2px rgb(10, 83, 74);
+    font: normal 1em "Montserrat";
 }
