@@ -1,0 +1,51 @@
+body{
+    font-family: "Aileron";
+    background-image: linear-gradient(to top right, black, grey, white, rgba(0,187,242,255), rgba(0,150,242,255));
+    background-attachment: fixed;
+    box-sizing: border-box;
+}
+
+.container{
+    position: relative;
+    margin: 10em auto;
+    width: 35em;
+    height: 30em;
+    border: solid rgba(0,150,242,255);
+    border-radius: 20px;
+    background-color: transparent;
+    backdrop-filter: blur(65px);
+}
+
+#heading{
+    font: normal bold 3.5em "Aileron";
+    text-align: center;
+}
+
+.number{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#count{
+    font-size: 8em;
+    color: rgba(0,150,242,255);
+    margin: 5rem;
+}
+
+.buttons{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#decreasebtn, #resetbtn, #increasebtn{
+    height: 3em;
+    width: 8em;
+    font: normal 1.2em "Aileron";
+    color: rgba(0,150,242,255);
+    border: solid 2px rgba(0,150,242,255);
+    border-radius: 30px;
+    cursor: pointer;
+}
+

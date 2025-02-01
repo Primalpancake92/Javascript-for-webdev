@@ -81,4 +81,5 @@ body{
     background-color: rgb(31, 204, 181);
     border: solid 2px rgb(10, 83, 74);
     font: normal 1em "Montserrat";
+    cursor: pointer;
 }
