@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "styles.css"> 
+    <title>Document</title>
+</head>
+<body>
+    <div class = "formcontainer">
+        <h1>Registration form</h1>
+        <form id = "form"> 
+            <div class="fullname">
+                <div class="firstname">
+                    <label id = "firstname">First name</label>
+                    <input type = "text" required>
+                    <span id = "firstmsg">Please enter your first name.</span>
+                </div>
+                <div class="lastname">
+                    <label id = "lastname">Last name</label>
+                    <input type = "text" required>
+                    <span id = "lastmsg">Please enter your first name.</span>
+                </div>
+            </div>
+            <div class="email">
+                <label id = "emaillabel">Email</label>
+                <input type = "text" required>
+                <span id = "emailmsg">Please enter a valid email.</span>
+            </div>
+            <div class="birthdate">
+                <label id = "birth">Date of Birth</label>
+                <input type = "date" required>
+                <span id = "birthmsg">Enter your date of birth.</span>
+            </div>
+            <div class="submit">
+                <button id = "register" type = "submit">Register</button>
+            </div>
+            <div class="rgmsg">
+                <span id = 'reg'></span>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
